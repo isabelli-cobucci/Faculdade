@@ -14,6 +14,15 @@
  - `hist` -> faz um histograma
  - `rexp` ou `rnorm` -> sorteia aleatoriamente n observações dentro daquela distribuição
  - `lm(Y~X, data)` -> nao sei
+ - `factor` -> cria um fator. Pode ter como argumentos `levels` (coloca as possibilidades de variáveis),`labels` (muda o nome das variáveis de a acordo com a ordem que está escrito em levels) ou `ordered` (tem como valor "T" (true) e diz para função que existe uma ordem e que ela foi estabelecida em levels)
+ - `table` -> cria uma tabela de frequência
+ - `barplot` -> cria um gráfico de barras
+ - `pie` -> cria uma gráfico de setores
+ - `cbind` -> combina dois quadros de dados
+ - `plot` -> plot vários tipos de gráficos
+ - `view` -> formata a tabela
+ - `head` -> apresenta as primeiras linhas de uma tabela
+ - `boxplot` -> cria um boxplot
 
 ## Anotações de AED
 a função T(Xi) é qualquer uma que se usar para transformar 
