@@ -38,3 +38,5 @@
 - objetivos das transformações é alterar a forma das distribuições;
 - "escala de likert";
 - dicionário de variáveis
+
+- 
