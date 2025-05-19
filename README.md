@@ -29,11 +29,6 @@
  - `sum()` -> soma elementos de um vetor
  - `is.na()` -> procura valores ausentes
 
-   
-# Comando R Markdown 
-                       
--
-
 ## Anotações de AED
 - a função T(Xi) é qualquer uma que se usar para transformar; 
 - objetivos das transformações é alterar a forma das distribuições;
