@@ -28,6 +28,10 @@
    ex: `` "sapply(hotels_vienna,function(x) sum(is.na(x)))" ``
  - `sum()` -> soma elementos de um vetor
  - `is.na()` -> procura valores ausentes
+ - `seq()` -> seq(from = 1, to = 1, by = ((to - from)/(length.out - 1)),length.out = NULL, along.with = NULL, ...); sequências
+ - `rep()` -> rep(x, times = 1, length.out = NA, each = 1); repete
+ - `sample()` -> sample(x, size, replace = FALSE, prob = NULL), sorteia
+
 
 ## Anotações de AED
 - a função T(Xi) é qualquer uma que se usar para transformar; 
