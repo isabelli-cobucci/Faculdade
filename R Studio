@@ -1,1 +1,8 @@
-testetest teste
+# R Studio
+
+- Todas as funções do R devem ser digitadas em letras minúsculas;
+- `Help`: √ help(palavra-chave) ou ?palavra-chave
+
+## Vetores
+
+• Comando para armazenar dados em vetor: c(dados) -> c de concatenar;
