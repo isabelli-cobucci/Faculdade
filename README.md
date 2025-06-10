@@ -1,8 +1,6 @@
-# Funções e atalhos do R
+# Funções do R
 
  - `round()` -> arredonda resultados sem casas decimais
- - `ctrl + l` -> limpa console
- - `setas cima e baixo` -> acessa histórico do console
  - `sqrt()` -> calcula raiz quadrada
  - `mean() ` -> calcula média
  - `rm()` -> apaga uma variável
