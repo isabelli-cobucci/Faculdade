@@ -16,6 +16,7 @@
  - `table()` -> cria uma tabela de frequência;
  - `view()` -> formata a tabela;
  - `head()` -> apresenta as primeiras linhas de uma tabela;
+ - `tail()` -> apresenta as últimas linhas;
  - `barplot()` -> cria um gráfico de barras;
  - `boxplot()` -> cria um boxplot;
  - `pie()` -> cria uma gráfico de setores;
@@ -32,6 +33,7 @@
  - `diag()` -> constroi matrizes diagonais;
  - `solve()` -> faz a matriz inversa;
  - `t()` -> acha a matriz transposta;
+ - `str()` -> inspeciona o objeto trabalhado;
 
 ## Anotações de AED
 - a função T(Xi) é qualquer uma que se usar para transformar; 
