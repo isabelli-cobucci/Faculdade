@@ -1,4 +1,4 @@
-# Funções do R
+ # Funções do R
 
  - `rm()` -> apaga uma variável;
  - `round()` -> arredonda resultados sem casas decimais;
