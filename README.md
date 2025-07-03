@@ -34,6 +34,7 @@
  - `solve()` -> faz a matriz inversa;
  - `t()` -> acha a matriz transposta;
  - `str()` -> inspeciona o objeto trabalhado;
+ - `summary()` -> da o resumo dos 5 números;
  - `white.table`-> `x` (é o objeto a ser traballhado), `file`(nome e tipo de arquivo. ex: "csv", "txt", "dat"), `sep`(qual separador decimal. ex:"," ou "."), `dec`(separador de campos. ex:":" ou "\t")
 
 ## Anotações de AED
