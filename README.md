@@ -37,7 +37,8 @@
  - `summary()` -> da o resumo dos 5 números;
  - `white.table()`-> `x` (é o objeto a ser traballhado), `file`(nome e tipo de arquivo. ex: "csv", "txt", "dat"), `sep`(qual separador decimal. ex:"," ou "."), `dec`(separador de campos. ex:":" ou "\t")
  - `getwd()` -> dá o caminho dos arquivos
- - `setwd()` -> muda o caminho dos arquivos 
+ - `setwd()` -> muda o caminho dos arquivos
+ - `read.table`-> importa dados. tem variações
 
 ## Anotações de AED
 - a função T(Xi) é qualquer uma que se usar para transformar; 
