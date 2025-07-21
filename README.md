@@ -20,7 +20,7 @@
  - `barplot()` -> cria um gráfico de barras;
  - `boxplot()` -> cria um boxplot;
  - `pie()` -> cria uma gráfico de setores;
- - `cbind()` -> combina dois quadros de dados;
+ - `cbind()` -> combina dois quadros de dados por coluna;
  - `plot()` -> plota vários tipos de gráficos;
  - `spec()` -> verifica as especificações das variáveis;
  - `sapply()` -> aplica os resultados de uma função em uma lista ou vetor. A primeira variável é o banco de dados, ``function(x)`` é um jeito de criar funções no R.
@@ -35,20 +35,24 @@
  - `t()` -> acha a matriz transposta;
  - `str()` -> inspeciona o objeto trabalhado;
  - `summary()` -> da o resumo dos 5 números;
- - `white.table()`-> `x` (é o objeto a ser traballhado), `file`(nome e tipo de arquivo. ex: "csv", "txt", "dat"), `sep`(qual separador decimal. ex:"," ou "."), `dec`(separador de campos. ex:":" ou "\t")
- - `getwd()` -> dá o caminho dos arquivos
- - `setwd()` -> muda o caminho dos arquivos
- - `read.table()`-> importa dados, tem variações
- - `sort()` -> ordena vetores
- - `order()` -> da a ordem (crescente ou decrescente) que cada número deve ficar de acordo com os índices de posição no vetor. ex: vetor(5, -5, 3, 0) terá saída (2, 4, 3, 1)
- - `rank()` ->  da a ordem (crescente ou decrescente) que cada número deve ficar de acordo com a posição que cada vetor ficaria em ordem. ex: vetor(5, -5, 3, 0) terá saída (4, 1, 3, 2)
- - `with()` -> com um conjunto de dados faça alguma coisa
+ - `white.table()`-> `x` (é o objeto a ser traballhado), `file`(nome e tipo de arquivo. ex: "csv", "txt", "dat"), `sep`(qual separador decimal. ex:"," ou "."), `dec`(separador de campos. ex:":" ou "\t");
+ - `getwd()` -> dá o caminho dos arquivos;
+ - `setwd()` -> muda o caminho dos arquivos;
+ - `read.table()`-> importa dados, tem variações;
+ - `sort()` -> ordena vetores;
+ - `order()` -> da a ordem (crescente ou decrescente) que cada número deve ficar de acordo com os índices de posição no vetor. ex: vetor(5, -5, 3, 0) terá saída (2, 4, 3, 1);
+ - `rank()` ->  da a ordem (crescente ou decrescente) que cada número deve ficar de acordo com a posição que cada vetor ficaria em ordem. ex: vetor(5, -5, 3, 0) terá saída (4, 1, 3, 2);
+ - `with()` -> com um conjunto de dados faça alguma coisa;
+ - `lm()` -> calcula os valores para o modelo linear;
+ - ``
 
 ## Anotações R Studio
 
 -  `include`: Valores são computados porém não temos a saída (output) nem o chunk mostrado no relatório.
 -  `eval`: Valores não são computados e não temos a saída, porém o chunk é mostrado no relatório. 
 -  `echo`: Valores são computados e temos a saída, porém o chunk não é mostrado no relatório.
+
+-  Pacotes de cores: R Color Brewer, Viridis, Wes Anderson
 
 ## Anotações de AED
 - a função T(Xi) é qualquer uma que se usar para transformar; 
