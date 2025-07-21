@@ -44,15 +44,13 @@
  - `rank()` ->  da a ordem (crescente ou decrescente) que cada número deve ficar de acordo com a posição que cada vetor ficaria em ordem. ex: vetor(5, -5, 3, 0) terá saída (4, 1, 3, 2);
  - `with()` -> com um conjunto de dados faça alguma coisa;
  - `lm()` -> calcula os valores para o modelo linear;
- - ``
 
 ## Anotações R Studio
 
 -  `include`: Valores são computados porém não temos a saída (output) nem o chunk mostrado no relatório.
 -  `eval`: Valores não são computados e não temos a saída, porém o chunk é mostrado no relatório. 
 -  `echo`: Valores são computados e temos a saída, porém o chunk não é mostrado no relatório.
-
--  Pacotes de cores: R Color Brewer, Viridis, Wes Anderson
+-  `Pacotes de cores`: R Color Brewer, Viridis, Wes Anderson
 
 ## Anotações de AED
 - a função T(Xi) é qualquer uma que se usar para transformar; 
