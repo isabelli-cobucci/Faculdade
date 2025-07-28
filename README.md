@@ -44,6 +44,12 @@
  - `rank()` ->  da a ordem (crescente ou decrescente) que cada número deve ficar de acordo com a posição que cada vetor ficaria em ordem. ex: vetor(5, -5, 3, 0) terá saída (4, 1, 3, 2);
  - `with()` -> com um conjunto de dados faça alguma coisa;
  - `lm()` -> calcula os valores para o modelo linear;
+ - `lines()`
+ - `text()`
+ - `d+nomedadistribuiçaõ()` -> funçao densidade de probabillidade;
+ - `p+nomedadistribuição()` -> função de probabilidade acumulada;
+ - `q+nomedadistribuição()` -> função quantílica
+ - `r+nomedadistribuição()` -> gerador de números  
 
 ## Anotações R Studio
 
