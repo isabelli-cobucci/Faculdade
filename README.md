@@ -13,6 +13,7 @@
  - `var()` -> calcula variância;
  - `sd()` -> calcula desvio padrão;
  - `sum()` -> soma elementos de um vetor;
+ - `quantile()` -> faz intervalo de confiança;
  
  - `factor()` -> cria um fator. Pode ter como argumentos `levels` (coloca as possibilidades de variáveis),`labels` (muda o nome das variáveis de acordo com a ordem que está escrito em levels) ou `ordered` (diz para função que existe uma ordem e que ela foi estabelecida em levels);
 
@@ -44,6 +45,7 @@
  - `is.na()` -> procura valores ausentes;
  - `seq()` -> faz sequências;
  - `rep()` -> faz sequências com repetições;
+ - `replicate()` -> repete o comando x vezes;
  - `sample()` -> sorteia;
  - `sort()` -> ordena vetores;
  - `order()` -> da a ordem (crescente ou decrescente) que cada número deve ficar de acordo com os índices de posição no vetor. ex: vetor(5, -5, 3, 0) terá saída (2, 4, 3, 1);
@@ -63,13 +65,15 @@
  - `getwd()` -> dá o caminho dos arquivos;
  - `setwd()` -> muda o caminho dos arquivos;
  - `read.table()`-> importa dados, tem variações;
+ - `source()` -> executa código R de um arquivo ou conexão;
 
 ## Distribuições de probabilidade
 
+ - `choose()` -> calcula combinação;
  - `lm()` -> calcula os valores para o modelo linear;
  - `d+nomedadistribuiçaõ()` -> funçao densidade de probabillidade;
  - `p+nomedadistribuição()` -> função de probabilidade acumulada;
- - `q+nomedadistribuição()` -> função quantílica;
+ - `q+nomedadistribuição()` -> função quantílica, a inversa da acumulada;
  - `r+nomedadistribuição()` -> sorteia aleatoriamente n observações dentro daquela distribuição;
 
 ## Anotações R Studio
