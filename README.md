@@ -44,7 +44,7 @@
    ex: `` "sapply(hotels_vienna,function(x) sum(is.na(x)))" ``;
  - `is.na()` -> procura valores ausentes;
  - `seq()` -> faz sequências;
- - `rep()` -> faz sequências com repetições;
+ - `rep()` -> faz sequências com repetições. o argumento `each` repete cada elemento x vezes, já o `times` repete a sequência x vezes;
  - `replicate()` -> repete o comando x vezes;
  - `sample()` -> sorteia;
  - `sort()` -> ordena vetores;
@@ -81,6 +81,8 @@
 -  `include`: Valores são computados porém não temos a saída (output) nem o chunk mostrado no relatório.
 -  `eval`: Valores não são computados e não temos a saída, porém o chunk é mostrado no relatório. 
 -  `echo`: Valores são computados e temos a saída, porém o chunk não é mostrado no relatório.
+-  `Links`:
+   * [texto](link) ou <link>;
 -  `Pacotes de cores`: R Color Brewer, Viridis, Wes Anderson
 -  site lupercio : https://bessegato.github.io/
 
