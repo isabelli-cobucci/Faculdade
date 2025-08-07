@@ -82,7 +82,7 @@
 -  `eval`: Valores não são computados e não temos a saída, porém o chunk é mostrado no relatório. 
 -  `echo`: Valores são computados e temos a saída, porém o chunk não é mostrado no relatório.
 -  `Links`:
-   * "[texto](link)" ou "<link>";
+   * [texto] e (link) ou <"link">;
 -  `Pacotes de cores`: R Color Brewer, Viridis, Wes Anderson
 -  site lupercio : https://bessegato.github.io/
 
