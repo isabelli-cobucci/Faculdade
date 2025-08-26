@@ -14,7 +14,7 @@
  - `sd()` -> calcula desvio padrão;
  - `sum()` -> soma elementos de um vetor;
  - `quantile()` -> faz intervalo de confiança;
- 
+ - `cumsum()` -> retorna um vetor com a soma cumulativa; 
  - `factor()` -> cria um fator. Pode ter como argumentos `levels` (coloca as possibilidades de variáveis),`labels` (muda o nome das variáveis de acordo com a ordem que está escrito em levels) ou `ordered` (diz para função que existe uma ordem e que ela foi estabelecida em levels);
 
 ## Tabelas
@@ -27,13 +27,19 @@
 
 ## Gráficos
 
-- `hist()` -> faz um histograma;
+### Funções High Level
+ - `hist()` -> faz um histograma;
  - `barplot()` -> cria um gráfico de barras;
  - `boxplot()` -> cria um boxplot;
  - `pie()` -> cria uma gráfico de setores;
  - `plot()` -> plota vários tipos de gráficos;
- - `lines()`
- - `text()`
+
+### Funções Low Level
+ - `plot()` -> plota vários tipos de gráficos;
+ - `lines()` -> adiciona linha ao gráfico existente;
+ - `text()` -> adiciona texto ao gráfico existente;
+ - `legend()` -> adicona uma legenda ao gráfico existente;
+ - `arrow()` -> adiciona uma seta ao gráfico existente;
 
 ## Manipulação de variáveis
 
@@ -51,6 +57,8 @@
  - `order()` -> da a ordem (crescente ou decrescente) que cada número deve ficar de acordo com os índices de posição no vetor. ex: vetor(5, -5, 3, 0) terá saída (2, 4, 3, 1);
  - `rank()` ->  da a ordem (crescente ou decrescente) que cada número deve ficar de acordo com a posição que cada vetor ficaria em ordem. ex: vetor(5, -5, 3, 0) terá saída (4, 1, 3, 2);
  - `with()` -> com um conjunto de dados faça alguma coisa;
+ - `lapply()` -> aplica a função ao objeto;
+ - `unique()` -> retorna o vetor sem repetições;
 
 ## Matrizes
 
@@ -86,8 +94,3 @@
 -  `Pacotes de cores`: R Color Brewer, Viridis, Wes Anderson
 -  site lupercio : https://bessegato.github.io/
 
-## Anotações de AED
-- a função T(Xi) é qualquer uma que se usar para transformar; 
-- objetivos das transformações é alterar a forma das distribuições;
-- "escala de likert";
-- dicionário de variáveis
