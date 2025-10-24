@@ -17,6 +17,17 @@
  - `cumsum()` -> retorna um vetor com a soma cumulativa; 
  - `factor()` -> cria um fator. Pode ter como argumentos `levels` (coloca as possibilidades de variáveis),`labels` (muda o nome das variáveis de acordo com a ordem que está escrito em levels) ou `ordered` (diz para função que existe uma ordem e que ela foi estabelecida em levels);
 
+## Família Apply
+
+- `apply()` -> aplica uma função a cada elemento de uma linha ou colunas de uma matriz, array ou data frame.
+- `lapply()` -> aplica uma função a cada elemento de uma linha ou coluna de um vetor, lista ou data frame. a saída é uma lista. 
+- `sapply()` -> aplica uma função a cada elemento de uma linha ou coluna de uma lista, vetor ou data frame. tenta simplificar a saída. se `simplify` for TRUE a saída é vetor, se FALSE a saída é lista. 
+- `tapply()` -> aplica uma função a estratos de um vetor, lista ou data frame usando um fator para definir os grupos. usa `simplify` também.
+- `by()` -> aplica uma função a estratos de um data frame ou matriz. é estratificado por um *fator*.
+- `do.call()` -> executa uma função cujos argumentos estão em uma lista. 
+- `aggregate()` -> aplica função a estratos de um dataframe
+- `mapply()` -> Função é aplicada sobre o 1º elemento de cada um dos argumentos, em seguida ao 2º, etc. argumentos podem ser listas ou vetores. saída é um vetor ou matriz. usado para múltiplas entradas. 
+
 ## Tabelas
    
  - `table()` -> cria uma tabela de frequência;
