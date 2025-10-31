@@ -14,6 +14,8 @@
  - `sd()` -> calcula desvio padrão;
  - `sum()` -> soma elementos de um vetor;
  - `quantile()` -> faz intervalo de confiança;
+ - `IQR()` -> distância interquartílica;
+ - `range` -> da o mínimo e o máximo do vetor;
  - `cumsum()` -> retorna um vetor com a soma cumulativa; 
  - `factor()` -> cria um fator. Pode ter como argumentos `levels` (coloca as possibilidades de variáveis),`labels` (muda o nome das variáveis de acordo com a ordem que está escrito em levels) ou `ordered` (diz para função que existe uma ordem e que ela foi estabelecida em levels);
 
