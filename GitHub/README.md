@@ -36,3 +36,7 @@
 - `Push`: Enviar versões para repositório remoto.
 - `Repositório`:É como uma pasta ou diretório que contém todos os arquivos e o histórico de um projeto.
 - `Branch/Ramificações`: Existe a branch main/master que é o "tronco" e as branchs que são os "galhos". Os galhos crescem ser atrapalhar o tronco.
+
+# GIT + RSTUDIO
+
+- <https://beatrizmilz.github.io/slidesR/git_rstudio/#24>
